@@ -5,10 +5,17 @@ html, body {
     overflow-x: hidden; /* Evita el desbordamiento horizontal */
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+
 body {
+    cursor: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="32" height="32"%3E%3Ctext x="0" y="24" font-size="24"%3E%F0%9F%9A%80%3C/text%3E%3C/svg%3E'), auto;
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #8EE1C4, #2094a8); /* Fondo degradado verde claro a verde oscuro */
-
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -18,6 +25,7 @@ body {
     padding: 0;
     min-height: 100vh; /* Asegura que el cuerpo tenga al menos la altura de la ventana */
 }
+
 
 h1 {
     font-size: 3em;
